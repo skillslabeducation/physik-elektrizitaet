@@ -170,7 +170,7 @@
     svg.appendChild(s('rect', { x: 40, y: 14, width: 160, height: 8, rx: 2, fill: '#8790b3' }));
     var g = s('g');
     var winkel = art === 'ab' ? 17 : art === 'an' ? -9 : art === 'leicht' ? -4 : 0;
-    [[95, links, -1], [145, rechts, 1]].forEach(function (k) {
+    [[80, links, -1], [160, rechts, 1]].forEach(function (k) {
       var a = winkel * Math.PI / 180 * k[2];
       var x = k[0] + Math.sin(a) * 140, y = 22 + Math.cos(a) * 140;
       g.appendChild(s('line', { x1: k[0], y1: 22, x2: x, y2: y, stroke: '#1c2340', 'stroke-width': 1.6 }));
