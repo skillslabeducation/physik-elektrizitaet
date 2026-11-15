@@ -1,0 +1,17 @@
+{
+  "name": "Lichter an! Elektrizität Klasse 7",
+  "short_name": "Lichter an!",
+  "description": "Lern- und Übungsseite Elektrizität, Klasse 7",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#141c44",
+  "theme_color": "#141c44",
+  "lang": "de",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
